@@ -1,0 +1,72 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.input-sec{
+  display: flex;
+  justify-content: center;
+}
+
+.inputbtn{
+  padding: 10px;
+  width: 50vw;
+  font-size: 20px;
+  border-right: none;
+  border-radius: 25px 0 0 25px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.inputbtn:focus{
+  outline: none;
+}
+
+.addbtn{
+  border-left: none;
+  font-size: 30px;
+  font-weight: bold ;
+  border-radius: 0 25px 25px 0;
+}
+
+.task-list{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.listItem{
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.listItem button{
+  border: none;
+  background-color: white;
+}
+
+.removeallbtn{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.removeallbtn button{
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid black;
+}
